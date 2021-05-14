@@ -2,4 +2,4 @@ import flwr as fl
 
 # Start Flower server for three rounds of federated learning
 if __name__ == "__main__":
-    fl.server.start_server("0.0.0.0:4000", config={"num_rounds": 1})
+    fl.server.start_server("0.0.0.0:7000", config={"num_rounds": 3})

@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
         def fit(self, parameters, config):  # type: ignore
             model.set_weights(parameters)
-            model.fit(x_train, y_train, epochs=1, batch_size=32) #epochs era 1
+            model.fit(x_train, y_train, epochs=3, batch_size=32) #epochs era 1
             return model.get_weights(), len(x_train), {}
 
         def evaluate(self, parameters, config):  # type: ignore
@@ -58,4 +58,4 @@ if __name__ == "__main__":
             return loss, len(x_test), {"accuracy": accuracy}
 
     # Start Flower client
-    fl.client.start_numpy_client(server_address="0.0.0.0:4000", client=CifarClient())
+    fl.client.start_numpy_client(server_address="0.0.0.0:7000", client=CifarClient())
