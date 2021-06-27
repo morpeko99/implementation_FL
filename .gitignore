@@ -3,3 +3,4 @@ __pycache__
 scrips que sirven.txt
 train.csv
 Quickstart_TF-jupyter-notebook.ipynb
+.ipynb_checkpoints/
