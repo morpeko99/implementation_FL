@@ -40,5 +40,6 @@ En cambio el cliente 10, tiene los datos de 3 sujetos del conjunto de datos, el 
     <img src="https://i.imgur.com/oRqXnqn.png">    
 
 ### Referencias
+- Flower: https://flower.dev/docs/
 - Dataset: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 - Preproceso: https://machinelearningmastery.com/cnn-models-for-human-activity-recognition-time-series-classification/
